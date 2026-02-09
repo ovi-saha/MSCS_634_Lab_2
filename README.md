@@ -1,6 +1,5 @@
 # MSCS_634_Lab_2 – Classification Using KNN and RNN
-This Repo is Lab 2: Data Visualization, Data Preprocessing, and Statistical Analysis Using Python in Jupyter Notebook for MSCS 634
-
+This Repo is Lab 2: Classification Using KNN and RNN
 ## Purpose
 This lab explores and compares the performance of K-Nearest Neighbors (KNN) and Radius Neighbors (RNN) classifiers using the Wine dataset from sklearn. The goal is to understand how different parameter values (k for KNN and radius for RNN) affect classification accuracy and to analyze which model is better suited for various data scenarios.
 
