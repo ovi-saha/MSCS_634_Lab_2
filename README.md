@@ -5,7 +5,6 @@ This Repo is Lab 2: Data Visualization, Data Preprocessing, and Statistical Anal
 This lab explores and compares the performance of K-Nearest Neighbors (KNN) and Radius Neighbors (RNN) classifiers using the Wine dataset from sklearn. The goal is to understand how different parameter values (k for KNN and radius for RNN) affect classification accuracy and to analyze which model is better suited for various data scenarios.
 
 ## Key Insights
-## Key Insights
 - **KNN Performance:** The K-Nearest Neighbors classifier achieved consistently high and stable accuracy across moderate k values. Accuracy improved from k = 1 to k = 5, then remained stable at higher values, indicating that very small k can lead to overfitting (relying too much on a single neighbor), while moderate k values provide a balance between overfitting and underfitting. This shows that KNN generalizes well for the Wine dataset and is less affected by local fluctuations in data density or outliers.  
 
 - **RNN Performance:** The Radius Neighbors classifier showed more variability in performance depending on the radius parameter. Small radii sometimes led to test samples having too few or no neighbors, resulting in lower accuracy. Large radii included neighbors from different classes, which could reduce the classifier’s ability to distinguish between classes. Moderate radius values captured enough neighbors for reliable classification, demonstrating that RNN is highly sensitive to distance thresholds and local data density.  
